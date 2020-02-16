@@ -11,6 +11,14 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+
+    /* Controlar que no se pueda hacer reload al tirar hacia abajo la pantalla como en una web normal */
+    overscroll-behavior-y: contain;
+
+    /* Controles para iOS */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */
